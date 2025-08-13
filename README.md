@@ -14,6 +14,7 @@ The goal is to develop reliable AI-generated content detection technology, contr
     * **Evaluation Data**: Provided at the **paragraph** level. The model must submit a probability for each individual paragraph.
 * **Core Challenge**: The key challenge is to perform paragraph-level prediction using document-level **weak labels**.
 * **Additional Rule**: Using context from other paragraphs within the same document (grouped by `title`) is permitted and encouraged for inference.
+* **Website**: https://dacon.io/competitions/official/236473/overview/description
 
 ## Team
 
