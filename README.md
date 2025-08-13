@@ -54,7 +54,7 @@ The model achieved the following scores on the competition's official leaderboar
 
 | Metric     | Public Score | Private Score (Final) |
 | :--------- | :----------- | :-------------------- |
-| **ROC AUC** | 0.9450       | **0.9323** |
+| **ROC AUC** | 0.9381       | **0.9323** |
 
 ## Our Presentation
 
