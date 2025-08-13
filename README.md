@@ -1,5 +1,5 @@
 # 2025 SW-Centric Universities Digital Contest: Text Discrimination Challenge
-**Official Website**: https://dacon.io/competitions/official/236473/overview/description
+* **Official Website**: https://dacon.io/competitions/official/236473/overview/description
 
 ## Overview
 
