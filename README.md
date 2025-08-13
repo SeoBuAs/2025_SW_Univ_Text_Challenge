@@ -61,5 +61,8 @@ The model achieved the following scores on the competition's official leaderboar
 
 
 ## Our Presentation
-
+<tr>
+ <td><img src="./image/Presentation_Main.png" alt="Image 1" width="1000px" /></td>
+</tr>
+You can check our presentation at this repository.
 
