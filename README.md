@@ -36,8 +36,8 @@ The goal is to develop reliable AI-generated content detection technology, contr
   <tr>
     <td> <img alt="Github" src ="https://avatars.githubusercontent.com/u/96530685?v=4" width="200" height="300"/> </td>
     <td> <img alt="Github" src ="https://github.com/user-attachments/assets/2fad07e0-8441-46fd-8f4b-60870260e3f9" width="200" height="300"/> </td>
-    <td>  <img  alt="Github"  src ="https://github.com/user-attachments/assets//"      width="200"  height="300"/>  </td>
-    <td> <img alt="Github" src ="https://github.com/user-attachments/assets/" width="200" height="300"/> </td>
+    <td>  <img  alt="Github"  src ="https://avatars.githubusercontent.com/u/132897663?v=4"      width="200"  height="300"/>  </td>
+    <td> <img alt="Github" src ="https://avatars.githubusercontent.com/u/211630193?s=200&v=4" width="200" height="300"/> </td>
   </tr>
   <tr>
     <td> <div align=center> <a href="https://github.com/taemin6697"> <img alt="Github" src ="https://img.shields.io/badge/Github-181717.svg?&style=plastic&logo=Github&logoColor=white"/> </div> </td>
