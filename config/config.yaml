@@ -1,0 +1,55 @@
+# AI Text Detection Configuration
+
+# Project settings
+project_name: "ai_text_detection"
+task_type: "binary_classification"
+
+# Data settings
+data:
+  train_file: "./data/pray_data_cor_2_with_clusters.csv"
+  val_file: "./data/val_with_clusters.csv"
+  test_file: "./data/test.csv"
+  submission_file: "./data/sample_submission.csv"
+  text_columns: ["full_text"]
+  target_column: ["generated", "cluster"]
+  max_length: 512
+  validation_split: 0.2 
+  random_state: 42
+
+# Model settings
+model:
+  model_names:  
+    - "snunlp/KR-ELECTRA-discriminator"
+    # - "kykim/electra-kor-base"
+    # - "team-lucid/deberta-v3-base-korean"
+
+  num_labels: 1  # 이진 분류를 위한 설정
+  dropout_rate: 0.1
+  hidden_size: 768
+
+# Training settings
+training:
+  num_epochs: 3
+  batch_size: 32
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_steps: 500
+  max_grad_norm: 1.0
+  
+# Evaluation settings
+evaluation:
+  strategy: "steps"
+  metric: "auc" 
+  
+# Hardware settings
+hardware:
+  device: "cuda:0"
+  dataloader_num_workers: 0
+  fp16: true
+
+# Output settings
+output:
+  model_save_dir: "./models"
+  logs_dir: "./logs"
+  results_dir: "./results"
+  submission_file: "submission.csv" 
