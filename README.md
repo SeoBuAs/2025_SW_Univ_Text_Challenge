@@ -47,7 +47,14 @@ The goal is to develop reliable AI-generated content detection technology, contr
 </table>
 
 ## 🏆 Execution Results
+🏆 **Award: Grand Prize (IITP President's Award)**
 
+### Final Performance
+The model achieved the following scores on the competition's official leaderboard, securing the second-place position.
+
+| Metric     | Public Score | Private Score (Final) |
+| :--------- | :----------- | :-------------------- |
+| **ROC AUC** | 0.9450       | **0.9323** |
 
 ## Our Presentation
 
